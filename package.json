@@ -1,0 +1,24 @@
+{
+  "name": "livingtheoklife",
+  "version": "1.0.0",
+  "description": "professional profile and portfolio",
+  "main": "main.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livingtheOKlife/livingtheoklife.git"
+  },
+  "keywords": [
+    "portfolio",
+    "profile",
+    "professional"
+  ],
+  "author": "livingtheOKlife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livingtheOKlife/livingtheoklife/issues"
+  },
+  "homepage": "https://github.com/livingtheOKlife/livingtheoklife#readme"
+}
