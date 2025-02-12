@@ -3,9 +3,7 @@ import PropTypes from 'prop-types'
 function MainContainer ({children}) {
   return (
     <main id="main-container">
-      <div id="main-wrapper">
-        {children}
-      </div>
+      {children}
     </main>
   )
 }
