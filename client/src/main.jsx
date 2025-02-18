@@ -6,12 +6,14 @@ import App from './App.jsx'
 
 import HomePage from './pages/HomePage'
 import ProfilePage from './pages/ProfilePage.jsx'
+import AboutPage from './pages/AboutPage.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index path='/' element={<HomePage />} />
       <Route path='/profile' element={<ProfilePage />} />
+      <Route path='/about' element={<AboutPage />} />
     </Route>
   )
 )

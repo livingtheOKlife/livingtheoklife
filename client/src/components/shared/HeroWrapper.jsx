@@ -4,7 +4,7 @@ function HeroWrapper ({imgUrl, title, children}) {
   return (
     <section id='hero-wrapper' style={{backgroundImage: `url(${imgUrl})`}}>
       <div className="hero-cover">
-        <h2>{title}</h2>
+        {title && <h2>{title}</h2>}
         {children}
       </div>
     </section>
@@ -13,7 +13,7 @@ function HeroWrapper ({imgUrl, title, children}) {
 
 HeroWrapper.propTypes = {
   imgUrl: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   children: PropTypes.node.isRequired
 }
 
