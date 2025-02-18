@@ -7,7 +7,11 @@ function HeaderContainer ({menuActive, setMenuActive}) {
   return (
     <header id="header-container">
       <nav id="main-nav">
-        <Link to='/'>
+        <Link to='/' onClick={() => {
+          if (menuActive) {
+            setMenuActive(!menuActive)
+          }
+        }}>
           <span className="logo">livingthe<em>OK</em>life</span>
         </Link>
         <ul className="main-nav-list">

@@ -35,7 +35,7 @@ input::-ms-clear {
   animation: none !important;
 }
 
-.relative, .menu-btn .bar, .menu-btn, #menu-container #menu-nav .menu-nav-list .menu-nav-item, .App {
+.relative, .menu-btn .bar, .menu-btn, #menu-container #menu-nav .menu-nav-list .menu-nav-item, .profile-page .page-section.intro .section-wrapper .profile-picture, .App {
   position: relative;
 }
 
@@ -59,21 +59,21 @@ input::-ms-clear {
   margin: 0 auto;
 }
 
-.piece {
+.piece, .card, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.hobbies .section-wrapper .hobby img, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail:last-of-type {
   width: 100%;
-  max-width: 240px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
-.flex, .tags .tag, .tags, .menu-btn, .gallery, .page-section.portfolio .section-wrapper .project-gallery, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav .media-nav-link, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav .links-nav-link, #menu-container #links-nav, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, #menu-container, #header-container #main-nav, .page-section.portfolio .section-wrapper .challenges, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details, .page-section.portfolio .section-wrapper .portfolio-header, .page-section.brief .section-wrapper, .App {
+.flex, .tags .tag, .tags, .menu-btn, .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery, .page-section.brief .section-wrapper, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav .media-nav-link, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav .links-nav-link, #menu-container #links-nav, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, #menu-container, #header-container #main-nav, .profile-page .page-section.hobbies .section-wrapper .hobby, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header svg.exp-icon, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header img.exp-icon, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.experience .section-wrapper .experience-list, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .challenges, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .App {
   display: flex;
 }
 
-.flex-col, .menu-btn, #hero-wrapper .hero-cover, .contact-nav, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, #menu-container, .page-section.outro .section-wrapper, .page-section.portfolio .section-wrapper .challenges, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details, .page-section.portfolio .section-wrapper .portfolio-header, .page-section.portfolio .section-wrapper, .page-section.oklife:not(.brief) .section-wrapper, .page-section.intro .section-wrapper, .App {
+.flex-col, .menu-btn, .page-section.outro .section-wrapper, #hero-wrapper .hero-cover, .contact-nav, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, #menu-container, .profile-page .page-section.hobbies .section-wrapper .hobby, .profile-page .page-section.hobbies .section-wrapper, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.experience .section-wrapper, .profile-page .page-section.intro .section-wrapper .intro-details, .profile-page .page-section.intro .section-wrapper, .home-page .page-section.portfolio .section-wrapper .challenges, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .home-page .page-section.portfolio .section-wrapper, .home-page .page-section.oklife:not(.brief) .section-wrapper, .home-page .page-section.intro .section-wrapper, .App {
   flex-direction: column;
 }
 
-.flex-wrap, .gallery, .page-section.portfolio .section-wrapper .project-gallery {
+.flex-wrap, .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery, .profile-page .page-section.experience .section-wrapper .experience-list {
   flex-wrap: wrap;
 }
 
@@ -81,11 +81,15 @@ input::-ms-clear {
   display: inline-block;
 }
 
-.justify-center, .menu-btn, .gallery, .page-section.portfolio .section-wrapper .project-gallery, .page-section .section-wrapper, .contact-nav, .media-nav, #menu-container #links-nav {
+.grid, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header {
+  display: grid;
+}
+
+.justify-center, .menu-btn, .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery, .page-section .section-wrapper, .contact-nav, .media-nav, #menu-container #links-nav, .profile-page .page-section.experience .section-wrapper .experience-list, .profile-page .page-section.intro .section-wrapper .intro-details {
   justify-content: center;
 }
 
-.justify-between, #footer-container #footer-wrapper, #header-container #main-nav, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, .page-section.brief .section-wrapper, .App {
+.justify-between, .page-section.brief .section-wrapper, #footer-container #footer-wrapper, #header-container #main-nav, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, .App {
   justify-content: space-between;
 }
 
@@ -97,7 +101,7 @@ input::-ms-clear {
   justify-content: end;
 }
 
-.align-center, .tags, .menu-btn, .gallery, .page-section.portfolio .section-wrapper .project-gallery, .page-section .section-wrapper, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav, #header-container #main-nav .main-nav-list, #header-container #main-nav, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header {
+.align-center, .tags, .menu-btn, .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav, #header-container #main-nav .main-nav-list, #header-container #main-nav, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header {
   align-items: center;
 }
 
@@ -105,7 +109,7 @@ input::-ms-clear {
   align-items: flex-end;
 }
 
-.self-center, .page-section.portfolio .section-wrapper .challenges a, .page-section.portfolio .section-wrapper > .nav-link {
+.self-center, .home-page .page-section.portfolio .section-wrapper .challenges a, .home-page .page-section.portfolio .section-wrapper > .nav-link {
   align-self: center;
 }
 
@@ -121,7 +125,7 @@ input::-ms-clear {
   gap: 3px;
 }
 
-.gap-4, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #menu-container #links-nav, #header-container #main-nav .main-nav-list, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .page-section.portfolio .section-wrapper .portfolio-header, .page-section.intro .section-wrapper {
+.gap-4, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #menu-container #links-nav, #header-container #main-nav .main-nav-list, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .home-page .page-section.intro .section-wrapper {
   gap: 4px;
 }
 
@@ -129,7 +133,7 @@ input::-ms-clear {
   gap: 6px;
 }
 
-.gap-8, .gallery, .page-section.portfolio .section-wrapper .project-gallery, #menu-container {
+.gap-8, .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery, #menu-container, .profile-page .page-section.hobbies .section-wrapper .hobby {
   gap: 8px;
 }
 
@@ -137,11 +141,11 @@ input::-ms-clear {
   gap: 10px;
 }
 
-.gap-12 {
+.gap-12, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
   gap: 12px;
 }
 
-.gap-16, .tags, .page-section.outro .section-wrapper, .page-section.portfolio .section-wrapper {
+.gap-16, .tags, .page-section.outro .section-wrapper, .profile-page .page-section.hobbies .section-wrapper, .profile-page .page-section.experience .section-wrapper .experience-list, .profile-page .page-section.experience .section-wrapper, .profile-page .page-section.intro .section-wrapper, .home-page .page-section.portfolio .section-wrapper {
   gap: 16px;
 }
 
@@ -193,11 +197,200 @@ input::-ms-clear {
   gap: 128px;
 }
 
-.h-100, #hero-wrapper .hero-cover, #main-container, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details {
+.row-gap-1 {
+  row-gap: 1px;
+}
+
+.row-gap-2, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header {
+  row-gap: 2px;
+}
+
+.row-gap-3 {
+  row-gap: 3px;
+}
+
+.row-gap-4 {
+  row-gap: 4px;
+}
+
+.row-gap-6 {
+  row-gap: 6px;
+}
+
+.row-gap-8 {
+  row-gap: 8px;
+}
+
+.row-gap-10 {
+  row-gap: 10px;
+}
+
+.row-gap-12 {
+  row-gap: 12px;
+}
+
+.row-gap-16 {
+  row-gap: 16px;
+}
+
+.row-gap-20 {
+  row-gap: 20px;
+}
+
+.row-gap-24 {
+  row-gap: 24px;
+}
+
+.row-gap-28 {
+  row-gap: 28px;
+}
+
+.row-gap-32 {
+  row-gap: 32px;
+}
+
+.row-gap-40 {
+  row-gap: 40px;
+}
+
+.row-gap-48 {
+  row-gap: 48px;
+}
+
+.row-gap-56 {
+  row-gap: 56px;
+}
+
+.row-gap-64 {
+  row-gap: 64px;
+}
+
+.row-gap-80 {
+  row-gap: 80px;
+}
+
+.row-gap-96 {
+  row-gap: 96px;
+}
+
+.row-gap-112 {
+  row-gap: 112px;
+}
+
+.row-gap-128 {
+  row-gap: 128px;
+}
+
+.col-gap-1 {
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+}
+
+.col-gap-2 {
+  -moz-column-gap: 2px;
+       column-gap: 2px;
+}
+
+.col-gap-3 {
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
+
+.col-gap-4 {
+  -moz-column-gap: 4px;
+       column-gap: 4px;
+}
+
+.col-gap-6 {
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+
+.col-gap-8 {
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+
+.col-gap-10 {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.col-gap-12, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header {
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+
+.col-gap-16 {
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+
+.col-gap-20 {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.col-gap-24 {
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+
+.col-gap-28 {
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+
+.col-gap-32 {
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+
+.col-gap-40 {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.col-gap-48 {
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+}
+
+.col-gap-56 {
+  -moz-column-gap: 56px;
+       column-gap: 56px;
+}
+
+.col-gap-64 {
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+
+.col-gap-80 {
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+
+.col-gap-96 {
+  -moz-column-gap: 96px;
+       column-gap: 96px;
+}
+
+.col-gap-112 {
+  -moz-column-gap: 112px;
+       column-gap: 112px;
+}
+
+.col-gap-128 {
+  -moz-column-gap: 128px;
+       column-gap: 128px;
+}
+
+.h-100, #hero-wrapper .hero-cover, #main-container, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details {
   height: 100%;
 }
 
-.w-100, .gallery, .page-section.portfolio .section-wrapper .project-gallery, #hero-wrapper .hero-cover, #hero-wrapper, #menu-container #menu-nav .menu-nav-list .menu-nav-item, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details {
+.w-100, .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery, #hero-wrapper .hero-cover, #hero-wrapper, #menu-container #menu-nav .menu-nav-list .menu-nav-item, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details {
   width: 100%;
 }
 
@@ -459,7 +652,7 @@ input::-ms-clear {
   padding-bottom: 3px;
 }
 
-.p-4, .contact-nav .contact-nav-link {
+.p-4, .tags .tag.xs, .contact-nav .contact-nav-link {
   padding: 4px;
 }
 
@@ -489,7 +682,7 @@ input::-ms-clear {
   padding-bottom: 4px;
 }
 
-.p-6 {
+.p-6, .tags .tag.sm {
   padding: 6px;
 }
 
@@ -519,7 +712,7 @@ input::-ms-clear {
   padding-bottom: 6px;
 }
 
-.p-8, .tags .tag.md, .media-nav .media-nav-link, #menu-container #links-nav .links-nav-link, #header-container #main-nav .main-nav-list .main-nav-item, #header-container #main-nav .logo, #header-container #main-nav, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, a.nav-link {
+.p-8, .tags .tag.md, .media-nav .media-nav-link, #menu-container #links-nav .links-nav-link, #header-container #main-nav .main-nav-list .main-nav-item, #header-container #main-nav .logo, #header-container #main-nav, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header, a.nav-link {
   padding: 8px;
 }
 
@@ -539,7 +732,7 @@ input::-ms-clear {
   padding-bottom: 8px;
 }
 
-.px-8, #footer-container #footer-wrapper, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief {
+.px-8, #footer-container #footer-wrapper, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief {
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -579,7 +772,7 @@ input::-ms-clear {
   padding-bottom: 10px;
 }
 
-.p-12, .tags .tag.lg {
+.p-12, .tags .tag.lg, .card, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
   padding: 12px;
 }
 
@@ -999,11 +1192,11 @@ input::-ms-clear {
   padding-bottom: 128px;
 }
 
-.square, .gallery .gallery-item, .page-section.portfolio .section-wrapper .project-gallery .gallery-item, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item {
+.square, .gallery .gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header img.exp-icon, .profile-page .page-section.intro .section-wrapper .profile-picture {
   aspect-ratio: 1/1;
 }
 
-.circle {
+.circle, .profile-page .page-section.intro .section-wrapper .profile-picture {
   border-radius: 50%;
 }
 
@@ -1019,7 +1212,7 @@ input::-ms-clear {
   border-radius: 3px;
 }
 
-.br-4, .btn.sm {
+.br-4, .btn.sm, .card, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
   border-radius: 4px;
 }
 
@@ -1199,7 +1392,7 @@ input::-ms-clear {
   margin-left: 6px;
 }
 
-.mr-6 {
+.mr-6, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail svg {
   margin-right: 6px;
 }
 
@@ -1216,7 +1409,7 @@ input::-ms-clear {
   margin-bottom: 6px;
 }
 
-.m-8, .page-section.portfolio .section-wrapper .challenges h5 {
+.m-8, .home-page .page-section.portfolio .section-wrapper .challenges h5 {
   margin: 8px;
 }
 
@@ -1228,11 +1421,11 @@ input::-ms-clear {
   margin-right: 8px;
 }
 
-.mt-8 {
+.mt-8, #hero-wrapper .hero-cover .media-nav, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail:last-of-type {
   margin-top: 8px;
 }
 
-.mb-8 {
+.mb-8, .profile-page .page-section.intro .section-wrapper .intro-details .tags {
   margin-bottom: 8px;
 }
 
@@ -1852,6 +2045,60 @@ p em {
     font-size: 16.1472px;
   }
 }
+p a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.32;
+  text-transform: none;
+}
+p a em {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+@media screen and (min-width: 600px) {
+  p a {
+    font-size: 13.92px;
+  }
+}
+@media screen and (min-width: 768px) {
+  p a {
+    font-size: 16.1472px;
+  }
+}
+p a * {
+  font-family: "Quicksand", sans-serif;
+  font-size: 8px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.32;
+  font-weight: 100;
+  color: hsl(210, 96%, 40%);
+}
+p a * em {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+@media screen and (min-width: 600px) {
+  p a * {
+    font-size: 9.28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  p a * {
+    font-size: 10.7648px;
+  }
+}
+p a:hover {
+  font-weight: 300;
+  color: #023d78;
+}
+p a:hover * {
+  color: #023d78;
+}
 @media screen and (max-width: 379px) {
   p {
     font-size: 10px;
@@ -1928,7 +2175,7 @@ a:hover {
 .ta-center, h3,
 h4,
 h5,
-p, .page-section.outro .section-wrapper h4 {
+p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail {
   text-align: center;
 }
 
@@ -1958,188 +2205,428 @@ p, .page-section.outro .section-wrapper h4 {
 }
 
 @media screen and (min-width: 600px) {
-  .page-section.skills {
+  .home-page .page-section.skills {
     display: none;
   }
 }
-.page-section.intro {
+.home-page .page-section.intro {
   background-color: #022950;
   color: hsl(210, 0%, 98%);
 }
-.page-section.intro h2, .page-section.intro h3, .page-section.intro h4, .page-section.intro h5, .page-section.intro h6 {
+.home-page .page-section.intro h2, .home-page .page-section.intro h3, .home-page .page-section.intro h4, .home-page .page-section.intro h5, .home-page .page-section.intro h6 {
   color: hsl(210, 0%, 98%);
 }
-.page-section.intro p, .page-section.intro span, .page-section.intro svg {
+.home-page .page-section.intro p, .home-page .page-section.intro span, .home-page .page-section.intro svg {
   color: #f0f0f0;
 }
-.page-section.brief .media-nav .media-nav-link svg {
-  color: hsl(210, 0%, 98%);
-}
-@media screen and (min-width: 600px) {
-  .page-section.brief {
-    padding: 20px 32px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .page-section.brief {
-    padding: 24px 48px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .page-section.brief {
-    padding: 32px 64px;
-  }
-}
-.page-section.oklife {
+.home-page .page-section.oklife {
   background-color: hsl(210, 0%, 98%);
   color: hsl(210, 100%, 4%);
 }
-.page-section.oklife h2, .page-section.oklife h3, .page-section.oklife h4, .page-section.oklife h5, .page-section.oklife h6 {
+.home-page .page-section.oklife h2, .home-page .page-section.oklife h3, .home-page .page-section.oklife h4, .home-page .page-section.oklife h5, .home-page .page-section.oklife h6 {
   color: hsl(210, 100%, 4%);
 }
-.page-section.oklife p, .page-section.oklife span, .page-section.oklife svg {
+.home-page .page-section.oklife p, .home-page .page-section.oklife span, .home-page .page-section.oklife svg {
   color: #001429;
 }
-.page-section.oklife .section-wrapper .logo em {
+.home-page .page-section.oklife .section-wrapper .logo em {
   color: hsl(210, 96%, 40%);
 }
-.page-section.portfolio {
+.home-page .page-section.portfolio {
   background-color: hsl(210, 100%, 4%);
   color: hsl(210, 0%, 98%);
 }
-.page-section.portfolio h2, .page-section.portfolio h3, .page-section.portfolio h4, .page-section.portfolio h5, .page-section.portfolio h6 {
+.home-page .page-section.portfolio h2, .home-page .page-section.portfolio h3, .home-page .page-section.portfolio h4, .home-page .page-section.portfolio h5, .home-page .page-section.portfolio h6 {
   color: hsl(210, 0%, 98%);
 }
-.page-section.portfolio p, .page-section.portfolio span, .page-section.portfolio svg {
+.home-page .page-section.portfolio p, .home-page .page-section.portfolio span, .home-page .page-section.portfolio svg {
   color: #f0f0f0;
 }
-.page-section.portfolio .section-wrapper .project-gallery {
+.home-page .page-section.portfolio .section-wrapper .project-gallery {
   width: 100%;
   margin: 0 auto;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   overflow: hidden;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details {
   justify-content: flex-end;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header {
   background-color: hsl(210, 96%, 40%);
   color: hsl(210, 0%, 98%);
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h2, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h3, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h4, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h5, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h6 {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h2, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h3, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h4, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h5, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header h6 {
   color: hsl(210, 0%, 98%);
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header p, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header span, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header svg {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header p, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header span, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header svg {
   color: #f0f0f0;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title em,
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type em {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title em,
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type em {
   letter-spacing: 0;
   color: hsl(210, 96%, 40%);
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
   font-family: "Rock Salt", cursive;
   font-size: 10.3448275862px;
   text-transform: none;
 }
 @media screen and (max-width: 379px) {
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
     font-size: 10.3448275862px;
   }
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
     font-size: 9.0909090909px;
   }
 }
 @media screen and (min-width: 600px) {
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
     font-size: 13.92px;
   }
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
     font-size: 10.5454545455px;
   }
 }
 @media screen and (min-width: 768px) {
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
     font-size: 16.1472px;
   }
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
     font-size: 12.2327272727px;
   }
 }
 @media (prefers-color-scheme: dark) {
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title em,
-  .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type em {
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-title em,
+  .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type em {
     color: hsl(32, 96%, 48%);
   }
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-header .project-type {
   font-weight: 300;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief {
   background-color: rgba(4, 102, 200, 0.64);
   color: hsl(210, 0%, 98%);
   height: 0%;
   transform-origin: 50% 100%;
   transition: all 0.16s ease-in-out;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h2, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h3, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h4, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h5, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h6 {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h2, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h3, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h4, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h5, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief h6 {
   color: hsl(210, 0%, 98%);
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief p, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief span, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief svg {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief p, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief span, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item .project-details .project-brief svg {
   color: #f0f0f0;
 }
-.page-section.portfolio .section-wrapper .project-gallery .project-gallery-item:hover .project-details .project-brief {
+.home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item:hover .project-details .project-brief {
   height: 100%;
   padding: 8px;
 }
-.page-section.portfolio .section-wrapper > .nav-link {
+.home-page .page-section.portfolio .section-wrapper > .nav-link {
   margin-bottom: -8px;
 }
-.page-section.portfolio .section-wrapper .challenges a {
+.home-page .page-section.portfolio .section-wrapper .challenges a {
   color: hsl(210, 96%, 40%);
 }
-.page-section.outro {
+.home-page .page-section.outro {
   background-color: hsl(210, 96%, 40%);
   color: hsl(210, 0%, 98%);
 }
-.page-section.outro h2, .page-section.outro h3, .page-section.outro h4, .page-section.outro h5, .page-section.outro h6 {
+.home-page .page-section.outro h2, .home-page .page-section.outro h3, .home-page .page-section.outro h4, .home-page .page-section.outro h5, .home-page .page-section.outro h6 {
   color: hsl(210, 0%, 98%);
 }
-.page-section.outro p, .page-section.outro span, .page-section.outro svg {
+.home-page .page-section.outro p, .home-page .page-section.outro span, .home-page .page-section.outro svg {
   color: #f0f0f0;
 }
-.page-section.outro .section-wrapper .contact-nav-link {
-  color: hsl(210, 0%, 98%);
-}
-.page-section.outro .section-wrapper .contact-nav-link svg {
-  color: #c7c7c7;
-}
-.page-section.outro .section-wrapper .contact-nav-link:hover svg {
-  color: hsl(210, 0%, 98%);
-}
-.page-section.outro .section-wrapper .media-nav-link svg {
-  color: hsl(210, 0%, 98%);
-}
 
+.profile-page .page-section.intro .section-wrapper .profile-picture {
+  width: 30%;
+  max-width: 200px;
+}
+.profile-page .page-section.intro .section-wrapper .intro-details {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  font-weight: 300;
+}
+.profile-page .page-section.intro .section-wrapper .intro-details em {
+  letter-spacing: 0;
+  color: hsl(210, 96%, 40%);
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 10.3448275862px;
+  text-transform: none;
+}
+@media screen and (max-width: 379px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details {
+    font-size: 10.3448275862px;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .logo {
+    font-size: 9.0909090909px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details {
+    font-size: 13.92px;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .logo {
+    font-size: 10.5454545455px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details {
+    font-size: 16.1472px;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .logo {
+    font-size: 12.2327272727px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .profile-page .page-section.intro .section-wrapper .intro-details em {
+    color: hsl(32, 96%, 48%);
+  }
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .intro-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .intro-title em {
+  letter-spacing: 0;
+  color: hsl(210, 96%, 40%);
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 13.7931034483px;
+  text-transform: none;
+}
+@media screen and (max-width: 379px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title {
+    font-size: 13.7931034483px;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
+    font-size: 12.1212121212px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title {
+    font-size: 18.56px;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
+    font-size: 14.0606060606px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title {
+    font-size: 21.5296px;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
+    font-size: 16.3103030303px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title em {
+    color: hsl(32, 96%, 48%);
+  }
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .intro-title em {
+  color: hsl(32, 96%, 48%);
+}
+@media screen and (max-width: 379px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail:last-of-type {
+    max-width: 480px;
+  }
+}
+.profile-page .page-section.experience {
+  background-color: hsl(210, 96%, 40%);
+  color: hsl(210, 0%, 98%);
+}
+.profile-page .page-section.experience h2, .profile-page .page-section.experience h3, .profile-page .page-section.experience h4, .profile-page .page-section.experience h5, .profile-page .page-section.experience h6 {
+  color: hsl(210, 0%, 98%);
+}
+.profile-page .page-section.experience p, .profile-page .page-section.experience span, .profile-page .page-section.experience svg {
+  color: #f0f0f0;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header {
+  grid-template-columns: 1fr auto;
+  grid-template-rows: repeat(2, auto);
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-weight: 300;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 em {
+  letter-spacing: 0;
+  color: hsl(210, 96%, 40%);
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 10.3448275862px;
+  text-transform: none;
+}
+@media screen and (max-width: 379px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 {
+    font-size: 10.3448275862px;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
+    font-size: 9.0909090909px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 {
+    font-size: 13.92px;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
+    font-size: 10.5454545455px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 {
+    font-size: 16.1472px;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
+    font-size: 12.2327272727px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 em {
+    color: hsl(32, 96%, 48%);
+  }
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 em {
+  font-weight: 600;
+  color: hsl(210, 100%, 4%);
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span {
+  font-family: "Poppins", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-weight: 300;
+  color: hsl(210, 96%, 40%);
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span em {
+  letter-spacing: 0;
+  color: hsl(210, 96%, 40%);
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 7.7586206897px;
+  text-transform: none;
+}
+@media screen and (max-width: 379px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span {
+    font-size: 7.7586206897px;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
+    font-size: 6.8181818182px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span {
+    font-size: 10.44px;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
+    font-size: 7.9090909091px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span {
+    font-size: 12.1104px;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
+    font-size: 9.1745454545px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span em {
+    color: hsl(32, 96%, 48%);
+  }
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header .exp-icon {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header img.exp-icon {
+  height: 24px;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header svg.exp-icon {
+  font-size: 20px;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main p {
+  text-align: left;
+}
+@media screen and (min-width: 600px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
+    max-width: 400px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
+    width: calc(50% - 8px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
+    max-width: 480px;
+  }
+}
+.profile-page .page-section.hobbies {
+  background-color: hsl(210, 0%, 98%);
+  color: hsl(210, 100%, 4%);
+}
+.profile-page .page-section.hobbies h2, .profile-page .page-section.hobbies h3, .profile-page .page-section.hobbies h4, .profile-page .page-section.hobbies h5, .profile-page .page-section.hobbies h6 {
+  color: hsl(210, 100%, 4%);
+}
+.profile-page .page-section.hobbies p, .profile-page .page-section.hobbies span, .profile-page .page-section.hobbies svg {
+  color: #001429;
+}
+.profile-page .page-section.hobbies .section-wrapper .hobby p {
+  max-width: 480px;
+}
+@media screen and (min-width: 768px) {
+  .profile-page .page-section.hobbies .section-wrapper .hobby p {
+    max-width: 640px;
+  }
+}
 #header-container {
   background-color: hsl(210, 100%, 4%);
   color: hsl(210, 0%, 98%);
@@ -2577,7 +3064,6 @@ p, .page-section.outro .section-wrapper h4 {
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1;
-  margin: 0;
   font-weight: 300;
   line-height: 1.3;
 }
@@ -2625,6 +3111,9 @@ p, .page-section.outro .section-wrapper h4 {
     font-size: 10px;
   }
 }
+#hero-wrapper .hero-cover .media-nav svg {
+  color: hsl(210, 0%, 98%);
+}
 #hero-wrapper .hero-cover .tags {
   display: none;
 }
@@ -2634,7 +3123,6 @@ p, .page-section.outro .section-wrapper h4 {
   }
   #hero-wrapper .hero-cover {
     justify-content: center;
-    text-align: center;
   }
   #hero-wrapper .hero-cover .hero-body {
     margin: 8px auto;
@@ -2646,6 +3134,46 @@ p, .page-section.outro .section-wrapper h4 {
   }
 }
 
+.page-section.brief .media-nav .media-nav-link svg {
+  color: hsl(210, 0%, 98%);
+}
+@media screen and (min-width: 600px) {
+  .page-section.brief {
+    padding: 20px 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .page-section.brief {
+    padding: 24px 48px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .page-section.brief {
+    padding: 32px 64px;
+  }
+}
+.page-section.outro {
+  background-color: hsl(210, 96%, 40%);
+  color: hsl(210, 0%, 98%);
+}
+.page-section.outro h2, .page-section.outro h3, .page-section.outro h4, .page-section.outro h5, .page-section.outro h6 {
+  color: hsl(210, 0%, 98%);
+}
+.page-section.outro p, .page-section.outro span, .page-section.outro svg {
+  color: #f0f0f0;
+}
+.page-section.outro .section-wrapper .contact-nav-link {
+  color: hsl(210, 0%, 98%);
+}
+.page-section.outro .section-wrapper .contact-nav-link svg {
+  color: #c7c7c7;
+}
+.page-section.outro .section-wrapper .contact-nav-link:hover svg {
+  color: hsl(210, 0%, 98%);
+}
+.page-section.outro .section-wrapper .media-nav-link svg {
+  color: hsl(210, 0%, 98%);
+}
 @media screen and (min-width: 600px) {
   .page-section {
     padding: 48px 32px;
@@ -2662,27 +3190,51 @@ p, .page-section.outro .section-wrapper h4 {
   }
 }
 
-.gallery, .page-section.portfolio .section-wrapper .project-gallery {
+.gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery {
   max-width: 400px;
 }
-.gallery .gallery-item, .page-section.portfolio .section-wrapper .project-gallery .gallery-item, .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item {
+.gallery .gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item {
   cursor: pointer;
 }
-.gallery.three-by-three .gallery-item, .page-section.portfolio .section-wrapper .three-by-three.project-gallery .gallery-item, .gallery.three-by-three .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .page-section.portfolio .section-wrapper .project-gallery .gallery.three-by-three .project-gallery-item, .page-section.portfolio .section-wrapper .three-by-three.project-gallery .project-gallery-item {
+.gallery.three-by-three .gallery-item, .home-page .page-section.portfolio .section-wrapper .three-by-three.project-gallery .gallery-item, .gallery.three-by-three .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .gallery.three-by-three .project-gallery-item, .home-page .page-section.portfolio .section-wrapper .three-by-three.project-gallery .project-gallery-item {
   width: calc(33% - 6px);
 }
-.gallery:not(.three-by-three) .gallery-item, .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .gallery-item, .gallery:not(.three-by-three) .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .page-section.portfolio .section-wrapper .project-gallery .gallery:not(.three-by-three) .project-gallery-item, .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .project-gallery-item {
+.gallery:not(.three-by-three) .gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .gallery-item, .gallery:not(.three-by-three) .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .gallery:not(.three-by-three) .project-gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .project-gallery-item {
   width: calc(50% - 4px);
 }
 @media screen and (min-width: 600px) {
-  .gallery:not(.three-by-three) .gallery-item, .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .gallery-item, .gallery:not(.three-by-three) .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .page-section.portfolio .section-wrapper .project-gallery .gallery:not(.three-by-three) .project-gallery-item, .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .project-gallery-item {
+  .gallery:not(.three-by-three) .gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .gallery-item, .gallery:not(.three-by-three) .home-page .page-section.portfolio .section-wrapper .project-gallery .project-gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery .gallery:not(.three-by-three) .project-gallery-item, .home-page .page-section.portfolio .section-wrapper .project-gallery:not(.three-by-three) .project-gallery-item {
     width: calc(33% - 6px);
   }
 }
 @media screen and (min-width: 600px) {
-  .gallery, .page-section.portfolio .section-wrapper .project-gallery {
+  .gallery, .home-page .page-section.portfolio .section-wrapper .project-gallery {
     max-width: 800px;
   }
+}
+
+.card, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.card.light, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
+  background-color: hsl(210, 0%, 98%);
+  color: hsl(210, 100%, 4%);
+}
+.card.light h2, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h2, .card.light h3, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h3, .card.light h4, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h4, .card.light h5, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h5, .card.light h6, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h6 {
+  color: hsl(210, 100%, 4%);
+}
+.card.light p, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item p, .card.light span, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item span, .card.light svg, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item svg {
+  color: #001429;
+}
+.card.dark, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item {
+  background-color: hsl(210, 100%, 4%);
+  color: hsl(210, 0%, 98%);
+}
+.card.dark h2, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h2, .card.dark h3, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h3, .card.dark h4, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h4, .card.dark h5, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h5, .card.dark h6, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h6 {
+  color: hsl(210, 0%, 98%);
+}
+.card.dark p, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item p, .card.dark span, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item span, .card.dark svg, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item svg {
+  color: #f0f0f0;
 }
 
 .menu-btn {
@@ -2840,6 +3392,12 @@ p, .page-section.outro .section-wrapper h4 {
   border-width: 1px;
   border-style: solid;
 }
+.tags .tag.xs svg {
+  font-size: 16px;
+}
+.tags .tag.sm svg {
+  font-size: 20px;
+}
 .tags .tag.md svg {
   font-size: 24px;
 }
@@ -2875,6 +3433,11 @@ p {
   width: 100%;
   max-width: 760px;
   margin: 0 auto;
+}
+@media (prefers-color-scheme: dark) {
+  p a {
+    color: hsl(210, 96%, 40%);
+  }
 }
 
 @media (prefers-color-scheme: dark) {

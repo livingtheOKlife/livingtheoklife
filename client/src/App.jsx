@@ -12,7 +12,7 @@ function App () {
     <div className="App">
       <h1>livingtheOKlife</h1>
       <HeaderContainer menuActive={menuActive} setMenuActive={setMenuActive} />
-      <MenuContainer menuActive={menuActive} />
+      <MenuContainer menuActive={menuActive} setMenuActive={setMenuActive} />
       <Outlet />
       <FooterContainer />
     </div>

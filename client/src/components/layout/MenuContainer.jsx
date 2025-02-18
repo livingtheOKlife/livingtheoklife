@@ -4,16 +4,28 @@ import { useNavigate } from 'react-router-dom'
 
 import { FaCodepen, FaGithub, FaLinkedinIn } from 'react-icons/fa6'
 
-function MenuContainer ({menuActive}) {
+function MenuContainer ({menuActive, setMenuActive}) {
   const navigate = useNavigate()
   return menuActive &&
     <aside id="menu-container">
       <nav id="menu-nav">
         <ul className="menu-nav-list">
-          <li className="menu-nav-item" onClick={() => navigate('/profile')}>Profile</li>
-          <li className="menu-nav-item" onClick={() => navigate('/oklife')}>OKlife</li>
-          <li className="menu-nav-item" onClick={() => navigate('/portfolio')}>Portfolio</li>
-          <li className="menu-nav-item" onClick={() => navigate('/about')}>About</li>
+          <li className="menu-nav-item" onClick={() => {
+            navigate('/profile')
+            setMenuActive(!menuActive)
+          }}>Profile</li>
+          <li className="menu-nav-item" onClick={() => {
+            navigate('/oklife')
+            setMenuActive(!menuActive)
+          }}>OKlife</li>
+          <li className="menu-nav-item" onClick={() => {
+            navigate('/portfolio')
+            setMenuActive(!menuActive)
+          }}>Portfolio</li>
+          <li className="menu-nav-item" onClick={() => {
+            navigate('/about')
+            setMenuActive(!menuActive)
+          }}>About</li>
         </ul>
       </nav>
       <nav id="links-nav">
@@ -31,7 +43,8 @@ function MenuContainer ({menuActive}) {
 }
 
 MenuContainer.propTypes = {
-  menuActive: PropTypes.bool.isRequired
+  menuActive: PropTypes.bool.isRequired,
+  setMenuActive: PropTypes.func.isRequired
 }
 
 export default MenuContainer

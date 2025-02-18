@@ -13,10 +13,10 @@ import ClickableButton from '../components/shared/ClickableButton'
 
 function HomePage () {
   return (
-    <MainContainer>
-      <HeroWrapper imgUrl='src/assets/cover.jpg' title='Oliver Kelly'>
+    <MainContainer page='home-page'>
+      <HeroWrapper imgUrl='src/assets/home-hero.jpg' title='Oliver Kelly'>
         <span className="hero-subtitle"><em>Full Stack</em> Web Developer</span>
-        <span className="hero-body">Proficient in React, Node, and PHP. With experience developing full-stack applications and WordPress templates.</span>
+        <span className="hero-body">Proficient in React, Node, and PHP. With experience developing full stack applications and WordPress templates.</span>
         <TagList size='md' />
       </HeroWrapper>
       <PageSection section='skills'>
@@ -50,8 +50,8 @@ function HomePage () {
         </div>
         <ul className="project-gallery">
           {
-            projects.slice(0, 6).map((project) => (
-              <li className="project-gallery-item" style={{backgroundImage: `url(${project.image})`}} key={project.title}>
+            projects.slice(0, 6).map((project, i) => (
+              <li className="project-gallery-item" style={{backgroundImage: `url(${project.image})`}} key={i}>
                 <div className="project-details">
                   <div className="project-header">
                     <span className="project-title">{project.title}</span>
@@ -59,8 +59,8 @@ function HomePage () {
                   </div>
                   <div className="project-brief">
                     {
-                      project.brief.map((p) => (
-                        <p key={p}>{p}</p>
+                      project.brief.map((p, x) => (
+                        <p key={x}>{p}</p>
                       ))
                     }
                   </div>
