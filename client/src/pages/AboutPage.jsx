@@ -1,6 +1,7 @@
 import MainContainer from '../components/layout/MainContainer'
-import ContactNav from '../components/shared/ContactNav'
+
 import HeroWrapper from '../components/shared/HeroWrapper'
+import ContactNav from '../components/shared/ContactNav'
 import MediaNav from '../components/shared/MediaNav'
 
 function AboutPage () {
