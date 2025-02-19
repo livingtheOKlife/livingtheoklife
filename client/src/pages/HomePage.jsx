@@ -12,7 +12,6 @@ import ContactNav from '../components/shared/ContactNav'
 import ClickableButton from '../components/shared/ClickableButton'
 
 /**
- * @todo 03 - [HomePage.jsx] Dun-Bri - founded quality assurance and set quality control standards
  * @todo 24 - Complete Frontend Mentor Challenges
  * @todo 25 - Complete JavaScript 30 Challenges
  */
@@ -30,10 +29,9 @@ function HomePage () {
       </PageSection>
       <PageSection section='intro'>
         <h3>About Me</h3>
-        <p>Most call me <em>Ollie</em>, but I call myself a <em>Full Stack Web Developer</em>.</p>
         <p>Throughout most of my career I have worked in production and manufacturing environments for companies such as <em>Johnson Matthey</em>, who produce over 70% of all catalytic converters across the globe, and <em>Dun-Bri</em>, the sole producer of all the wiring looms within the AA fleet.</p>
         <p>During my time with Johnson Matthey, I successfully <em>increased the potential throughput revenue</em> of the CSF department <em>by over £470m annually</em>, and <em>improved overall equipment efficiency by 76%</em>.</p>
-        {/** @todo 03 */}
+        <p>Shortly after joining Dun-Bri, I created a quality control system which aimed to reduce product deviations by implementing quality standards. Within 3 months we had successfully <em>reduced product returns by over 95%</em> and identified a number of procedural issues that lead to inconsistencies in production.</p>
         <p>However, in 2020 my world completely changed when I decided to leave my career as a <em>Continuous Improvement Specialist</em> and pursue a career in the IT industry, a great passion of mine. I&apos;ve always had a <em>strong aptitude for problem solving</em>, and software development posed a great opportunity for me combine this with my <em>passion for technology</em>.</p>
       </PageSection>
       <PageSection section='brief'>

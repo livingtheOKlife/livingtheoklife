@@ -10,7 +10,6 @@ import PortfolioPage from './pages/PortfolioPage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 
 /**
- * @todo 03 - [HomePage.jsx] Dun-Bri - founded quality assurance and set quality control standards
  * @todo 04 - [ProfilePage.jsx] Change hero-body tagline
  * @todo 05 - [ProfilePage.jsx] Write 'Early Career' description
  * @todo 06 - [ProfilePage.jsx] Write 'Johnson Matthey' description
