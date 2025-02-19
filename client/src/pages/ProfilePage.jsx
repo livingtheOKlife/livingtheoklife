@@ -10,6 +10,18 @@ import PageSection from '../components/shared/PageSection'
 import TagList from '../components/shared/TagList'
 import ContactNav from '../components/shared/ContactNav'
 
+/**
+ * @todo 04 - [ProfilePage.jsx] Change hero-body tagline
+ * @todo 05 - [ProfilePage.jsx] Write 'Early Career' description
+ * @todo 06 - [ProfilePage.jsx] Write 'Johnson Matthey' description
+ * @todo 07 - [ProfilePage.jsx] Write 'Career Change' description
+ * @todo 08 - [ProfilePage.jsx] Write 'Hospitality' description
+ * @todo 09 - [ProfilePage.jsx] Create 'Physical Activity' content
+ * @todo 10 - [ProfilePage.jsx] Create 'Problem Solving' content
+ * @todo 11 - [ProfilePage.jsx] Create 'Reading and Research' content
+ * @todo 12 - [ProfilePage.jsx] Create 'Music' content
+ */
+
 function ProfilePage () {
   return (
     <MainContainer page='profile-page'>

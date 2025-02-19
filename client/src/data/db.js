@@ -1,3 +1,17 @@
+/**
+ * @todo 13 - Create OKauth application and add to projects array
+ * @todo 14 - Create OKadmin application and add to projects array
+ * @todo 15 - Create OKfinance application and add to projects array
+ * @todo 16 - Create OKfitness application and add to projects array
+ * @todo 17 - Create OKdiet application and add to projects array
+ * @todo 18 - Create OKroutine application and add to projects array
+ * @todo 19 - Create OKmedia application and add to projects array
+ * @todo 20 - Create OKecom application and add to projects array
+ * @todo 21 - Create OKestate application and add to projects array
+ *
+ * add links to projects (OKlife to livingtheoklife.com/oklife, others to github)
+ */
+
 export const projects = [
   {
     title: 'OKlife',
