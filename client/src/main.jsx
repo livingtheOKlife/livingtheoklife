@@ -10,10 +10,8 @@ import PortfolioPage from './pages/PortfolioPage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 
 /**
- * @todo 04 - [ProfilePage.jsx] Change hero-body tagline
- * @todo 05 - [ProfilePage.jsx] Write 'Early Career' description
- * @todo 06 - [ProfilePage.jsx] Write 'Johnson Matthey' description
- * @todo 07 - [ProfilePage.jsx] Write 'Career Change' description
+ * projects on portfolio page - color change?
+ * 
  * @todo 08 - [ProfilePage.jsx] Write 'Hospitality' description
  * @todo 09 - [ProfilePage.jsx] Create 'Physical Activity' content
  * @todo 10 - [ProfilePage.jsx] Create 'Problem Solving' content

@@ -1852,14 +1852,28 @@ h2 em {
 h2 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 27.5862068966px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+h2 .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   h2 {
     font-size: 27.5862068966px;
   }
   h2 .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 24.2424242424px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h2 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -1867,7 +1881,15 @@ h2 .logo {
     font-size: 37.12px;
   }
   h2 .logo {
-    font-size: 28.1212121212px;
+    font-family: "Rock Salt", cursive;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h2 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1875,7 +1897,15 @@ h2 .logo {
     font-size: 43.0592px;
   }
   h2 .logo {
-    font-size: 32.6206060606px;
+    font-family: "Rock Salt", cursive;
+    font-size: 37.12px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h2 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -1899,14 +1929,28 @@ h3 em {
 h3 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 24.1379310345px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+h3 .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   h3 {
     font-size: 24.1379310345px;
   }
   h3 .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 21.2121212121px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h3 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -1914,7 +1958,15 @@ h3 .logo {
     font-size: 32.48px;
   }
   h3 .logo {
-    font-size: 24.6060606061px;
+    font-family: "Rock Salt", cursive;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h3 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1922,7 +1974,15 @@ h3 .logo {
     font-size: 37.6768px;
   }
   h3 .logo {
-    font-size: 28.543030303px;
+    font-family: "Rock Salt", cursive;
+    font-size: 32.48px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h3 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -1945,14 +2005,28 @@ h4 em {
 h4 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 17.2413793103px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+h4 .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   h4 {
     font-size: 17.2413793103px;
   }
   h4 .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 15.1515151515px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h4 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -1960,7 +2034,15 @@ h4 .logo {
     font-size: 23.2px;
   }
   h4 .logo {
-    font-size: 17.5757575758px;
+    font-family: "Rock Salt", cursive;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h4 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1968,7 +2050,15 @@ h4 .logo {
     font-size: 26.912px;
   }
   h4 .logo {
-    font-size: 20.3878787879px;
+    font-family: "Rock Salt", cursive;
+    font-size: 23.2px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h4 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -1991,14 +2081,28 @@ h5 em {
 h5 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 15.5172413793px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+h5 .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   h5 {
     font-size: 15.5172413793px;
   }
   h5 .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 13.6363636364px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h5 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2006,7 +2110,15 @@ h5 .logo {
     font-size: 20.88px;
   }
   h5 .logo {
-    font-size: 15.8181818182px;
+    font-family: "Rock Salt", cursive;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h5 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2014,7 +2126,15 @@ h5 .logo {
     font-size: 24.2208px;
   }
   h5 .logo {
-    font-size: 18.3490909091px;
+    font-family: "Rock Salt", cursive;
+    font-size: 20.88px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  h5 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2278,14 +2398,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .profile-page .page-section.intro .section-wrapper .intro-details .logo {
   font-family: "Rock Salt", cursive;
   font-size: 10.3448275862px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   .profile-page .page-section.intro .section-wrapper .intro-details {
     font-size: 10.3448275862px;
   }
   .profile-page .page-section.intro .section-wrapper .intro-details .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 9.0909090909px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2293,7 +2427,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 13.92px;
   }
   .profile-page .page-section.intro .section-wrapper .intro-details .logo {
-    font-size: 10.5454545455px;
+    font-family: "Rock Salt", cursive;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2301,7 +2443,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 16.1472px;
   }
   .profile-page .page-section.intro .section-wrapper .intro-details .logo {
-    font-size: 12.2327272727px;
+    font-family: "Rock Salt", cursive;
+    font-size: 13.92px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2323,14 +2473,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
   font-family: "Rock Salt", cursive;
   font-size: 13.7931034483px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   .profile-page .page-section.intro .section-wrapper .intro-details .intro-title {
     font-size: 13.7931034483px;
   }
   .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 12.1212121212px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2338,7 +2502,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 18.56px;
   }
   .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
-    font-size: 14.0606060606px;
+    font-family: "Rock Salt", cursive;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2346,7 +2518,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 21.5296px;
   }
   .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo {
-    font-size: 16.3103030303px;
+    font-family: "Rock Salt", cursive;
+    font-size: 18.56px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.intro .section-wrapper .intro-details .intro-title .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2398,14 +2578,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 10.3448275862px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 {
     font-size: 10.3448275862px;
   }
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 9.0909090909px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2413,7 +2607,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 13.92px;
   }
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
-    font-size: 10.5454545455px;
+    font-family: "Rock Salt", cursive;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2421,7 +2623,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 16.1472px;
   }
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo {
-    font-size: 12.2327272727px;
+    font-family: "Rock Salt", cursive;
+    font-size: 13.92px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header h6 .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2451,14 +2661,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
   font-family: "Rock Salt", cursive;
   font-size: 7.7586206897px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span {
     font-size: 7.7586206897px;
   }
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 6.8181818182px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2466,7 +2690,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 10.44px;
   }
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
-    font-size: 7.9090909091px;
+    font-family: "Rock Salt", cursive;
+    font-size: 9px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2474,7 +2706,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 12.1104px;
   }
   .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo {
-    font-size: 9.1745454545px;
+    font-family: "Rock Salt", cursive;
+    font-size: 10.44px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header span .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2686,14 +2926,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #footer-container #footer-wrapper #brand .copyright .logo {
   font-family: "Rock Salt", cursive;
   font-size: 6.8965517241px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+#footer-container #footer-wrapper #brand .copyright .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   #footer-container #footer-wrapper #brand .copyright {
     font-size: 6.8965517241px;
   }
   #footer-container #footer-wrapper #brand .copyright .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 6.0606060606px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #footer-container #footer-wrapper #brand .copyright .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2701,7 +2955,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 9.28px;
   }
   #footer-container #footer-wrapper #brand .copyright .logo {
-    font-size: 7.0303030303px;
+    font-family: "Rock Salt", cursive;
+    font-size: 8px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #footer-container #footer-wrapper #brand .copyright .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2709,7 +2971,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 10.7648px;
   }
   #footer-container #footer-wrapper #brand .copyright .logo {
-    font-size: 8.1551515152px;
+    font-family: "Rock Salt", cursive;
+    font-size: 9.28px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #footer-container #footer-wrapper #brand .copyright .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2732,14 +3002,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #footer-container #footer-wrapper .right .logo {
   font-family: "Rock Salt", cursive;
   font-size: 6.8965517241px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+#footer-container #footer-wrapper .right .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   #footer-container #footer-wrapper .right {
     font-size: 6.8965517241px;
   }
   #footer-container #footer-wrapper .right .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 6.0606060606px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #footer-container #footer-wrapper .right .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2747,7 +3031,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 9.28px;
   }
   #footer-container #footer-wrapper .right .logo {
-    font-size: 7.0303030303px;
+    font-family: "Rock Salt", cursive;
+    font-size: 8px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #footer-container #footer-wrapper .right .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2755,7 +3047,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 10.7648px;
   }
   #footer-container #footer-wrapper .right .logo {
-    font-size: 8.1551515152px;
+    font-family: "Rock Salt", cursive;
+    font-size: 9.28px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #footer-container #footer-wrapper .right .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2925,14 +3225,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #hero-wrapper .hero-cover .hero-subtitle .logo {
   font-family: "Rock Salt", cursive;
   font-size: 13.7931034483px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+#hero-wrapper .hero-cover .hero-subtitle .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   #hero-wrapper .hero-cover .hero-subtitle {
     font-size: 13.7931034483px;
   }
   #hero-wrapper .hero-cover .hero-subtitle .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 12.1212121212px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #hero-wrapper .hero-cover .hero-subtitle .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2940,7 +3254,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 18.56px;
   }
   #hero-wrapper .hero-cover .hero-subtitle .logo {
-    font-size: 14.0606060606px;
+    font-family: "Rock Salt", cursive;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #hero-wrapper .hero-cover .hero-subtitle .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -2948,7 +3270,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 21.5296px;
   }
   #hero-wrapper .hero-cover .hero-subtitle .logo {
-    font-size: 16.3103030303px;
+    font-family: "Rock Salt", cursive;
+    font-size: 18.56px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #hero-wrapper .hero-cover .hero-subtitle .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -2980,14 +3310,28 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #hero-wrapper .hero-cover .hero-body .logo {
   font-family: "Rock Salt", cursive;
   font-size: 10.3448275862px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+#hero-wrapper .hero-cover .hero-body .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   #hero-wrapper .hero-cover .hero-body {
     font-size: 10.3448275862px;
   }
   #hero-wrapper .hero-cover .hero-body .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 9.0909090909px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #hero-wrapper .hero-cover .hero-body .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -2995,7 +3339,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 13.92px;
   }
   #hero-wrapper .hero-cover .hero-body .logo {
-    font-size: 10.5454545455px;
+    font-family: "Rock Salt", cursive;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #hero-wrapper .hero-cover .hero-body .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -3003,7 +3355,15 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     font-size: 16.1472px;
   }
   #hero-wrapper .hero-cover .hero-body .logo {
-    font-size: 12.2327272727px;
+    font-family: "Rock Salt", cursive;
+    font-size: 13.92px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  #hero-wrapper .hero-cover .hero-body .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -3025,7 +3385,7 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 }
 @media screen and (min-width: 600px) {
   #hero-wrapper {
-    height: calc(100dvh - 64px);
+    height: calc(100dvh - 65px);
   }
   #hero-wrapper .hero-cover {
     justify-content: center;
@@ -3037,6 +3397,11 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
     display: flex;
     justify-content: center;
     margin: 8px auto 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  #hero-wrapper {
+    height: calc(100dvh - 67px);
   }
 }
 
@@ -3399,7 +3764,14 @@ p {
 .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
   font-family: "Rock Salt", cursive;
   font-size: 10.3448275862px;
-  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.project-gallery .project-gallery-item .project-details .project-header .project-title .logo em,
+.project-gallery .project-gallery-item .project-details .project-header .project-type .logo em {
+  text-transform: uppercase;
+  color: hsl(32, 96%, 48%);
 }
 @media screen and (max-width: 379px) {
   .project-gallery .project-gallery-item .project-details .project-header .project-title,
@@ -3408,7 +3780,16 @@ p {
   }
   .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
   .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
+    font-family: "Rock Salt", cursive;
     font-size: 9.0909090909px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .project-gallery .project-gallery-item .project-details .project-header .project-title .logo em,
+  .project-gallery .project-gallery-item .project-details .project-header .project-type .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 600px) {
@@ -3418,7 +3799,16 @@ p {
   }
   .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
   .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
-    font-size: 10.5454545455px;
+    font-family: "Rock Salt", cursive;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .project-gallery .project-gallery-item .project-details .project-header .project-title .logo em,
+  .project-gallery .project-gallery-item .project-details .project-header .project-type .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media screen and (min-width: 768px) {
@@ -3428,7 +3818,16 @@ p {
   }
   .project-gallery .project-gallery-item .project-details .project-header .project-title .logo,
   .project-gallery .project-gallery-item .project-details .project-header .project-type .logo {
-    font-size: 12.2327272727px;
+    font-family: "Rock Salt", cursive;
+    font-size: 13.92px;
+    font-weight: 300;
+    letter-spacing: 1;
+    line-height: 1;
+  }
+  .project-gallery .project-gallery-item .project-details .project-header .project-title .logo em,
+  .project-gallery .project-gallery-item .project-details .project-header .project-type .logo em {
+    text-transform: uppercase;
+    color: hsl(32, 96%, 48%);
   }
 }
 @media (prefers-color-scheme: dark) {

@@ -17,6 +17,7 @@ function PortfolioPage () {
   return (
     <MainContainer page='portfolio-page'>
       <HeroWrapper imgUrl='src/assets/portfolio-hero.jpg' title='My Portfolio'>
+        <span className="hero-body">A collection of my <em>projects</em>, and development <em>challenges</em> that I have completed.</span>
         <TagList size='md' />
       </HeroWrapper>
       <PageSection section='skills'>

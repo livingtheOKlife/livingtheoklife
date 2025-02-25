@@ -11,10 +11,6 @@ import TagList from '../components/shared/TagList'
 import ContactNav from '../components/shared/ContactNav'
 
 /**
- * @todo 04 - [ProfilePage.jsx] Change hero-body tagline
- * @todo 05 - [ProfilePage.jsx] Write 'Early Career' description
- * @todo 06 - [ProfilePage.jsx] Write 'Johnson Matthey' description
- * @todo 07 - [ProfilePage.jsx] Write 'Career Change' description
  * @todo 08 - [ProfilePage.jsx] Write 'Hospitality' description
  * @todo 09 - [ProfilePage.jsx] Create 'Physical Activity' content
  * @todo 10 - [ProfilePage.jsx] Create 'Problem Solving' content
@@ -44,7 +40,7 @@ function ProfilePage () {
             <FaBriefcase />
             Actively seeking
           </span>
-          <span className="intro-detail">Proficient in React, Node, and PHP. With experience developing full stack applications and WordPress templates.</span>
+          <span className="intro-detail">Currently seeking employment as a Full Stack Developer, whilst practising MERN stack development and studying PHP.</span>
         </div>
       </PageSection>
       <PageSection section='experience'>

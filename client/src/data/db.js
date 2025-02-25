@@ -54,10 +54,8 @@ export const experience = [
     date: '',
     logo: 'career',
     description: [
-      'Started studying in 2020 lockdown',
-      'Trained to become full stack developer',
-      'Started building single-page sites for customers',
-      'Mostly WordPress but some React or MERN',
+      'During my time at Johnson Matthey I began to realize my potential and, when the lockdown hit in 2020, I decided to start turning that potential towards something I was truly passionate about - computing.',
+      'Web development has been my primary focus, practising MERN stack development and WordPress template design. But I have also dipped a toe in to the world of AWS, following the route of Solutions Architecture.',
     ],
   },
   {
@@ -66,10 +64,10 @@ export const experience = [
     date: 'September 2017 to April 2021',
     logo: 'src/assets/jm-logo.png',
     description: [
-      'Started as Production Operator but promoted quickly',
-      'Zero-cost immediate increase of 27%',
-      'Promoted to FI and AM lead',
-      'Final result - £470m annual PTR, 76% OEE (before covid closed TPM)',
+      'In September of 2017, I joined the Johnson Matthey Clean Air (CA) Department. CA Europe was responsible for the production of over 70% of catalytic converters across the globe.',
+      'After joining the Focused Improvement (FI) team, I identified a bottleneck in their main end-of-line production line and provided an immediate zero-cost improvement of 27% that resulted in my promotion to FI Lead',
+      'Alongside my promotion, I also trained a team of staff in Autonomous Maintenance (another area of Continuous Improvement) that successfully completed steps 0 through 3 of our AM journey.',
+      'Unfortunately, the 2020 lockdown brought about a massive reduction in the Continuous Improvement efforts. However, before the near-termination of the project we had successfully increased the potential throughput revenue of the Catalytic Soot Filter (CSF) department by over £470m annually, and increased overall equipment efficiency by 76%.',
     ],
   },
   {
@@ -78,10 +76,10 @@ export const experience = [
     date: '',
     logo: 'career',
     description: [
-      'Most of career in manufacturing and production, with some in Labouring and retail',
-      'Helped DIG implement SAP',
-      'Helped Dun-Bri found quality assurance department',
-      'Imanami internship',
+      'During my early career I primarily worked in manufacturing and production environments, starting out as a Production Engineer and growing my skills in Continuous Improvement.',
+      'As well as Continuous Improvement I have been involved in the transition from SAGE to SAP at multiple companies, ranging in scale from a small family-owned business in Dixon International Group, and a FTSE 100 in Johnson Matthey.',
+      'I was the founding member in a the quality control team at Dun-Bri, where I implemented systems for identifying the root causes of product deviation and failures.',
+      'When I was 16, I attended an internship at Imanami in California. An experience from which I learnt a great deal about the inner-workings of a growing computing company who worked with Active Directory Management software.',
     ],
   },
 ]
