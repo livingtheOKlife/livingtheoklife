@@ -65,7 +65,7 @@ input::-ms-clear {
   margin: 0 auto;
 }
 
-.flex, .project-gallery .project-gallery-item .project-details .project-brief, .project-gallery .project-gallery-item .project-details .project-header, .project-gallery .project-gallery-item .project-details, .tags .tag, .tags, .menu-btn, .gallery, .project-gallery, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav .media-nav-link, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav .links-nav-link, #menu-container #links-nav, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, #menu-container, #header-container #main-nav, .about-page .navs, .about-page .about div, .about-page .about, .profile-page .page-section.hobbies .section-wrapper .hobby, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header svg.exp-icon, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header img.exp-icon, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.experience .section-wrapper .experience-list, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .challenges, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .App {
+.flex, .project-gallery .project-gallery-item .project-details .project-brief, .project-gallery .project-gallery-item .project-details .project-header, .project-gallery .project-gallery-item .project-details, .tags .tag, .tags, .btn, .menu-btn, .gallery, .project-gallery, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav .media-nav-link, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav .links-nav-link, #menu-container #links-nav, #menu-container #menu-nav .menu-nav-list, #menu-container #menu-nav, #menu-container, #header-container #main-nav, .about-page .navs, .about-page .about div, .about-page .about, .profile-page .page-section.hobbies .section-wrapper .hobby, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header svg.exp-icon, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header img.exp-icon, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.experience .section-wrapper .experience-list, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .challenges, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .App {
   display: flex;
 }
 
@@ -101,7 +101,7 @@ input::-ms-clear {
   justify-content: end;
 }
 
-.align-center, .portfolio-page .page-section.challenges .section-wrapper, .project-gallery .project-gallery-item .project-details .project-header, .tags, .menu-btn, .gallery, .project-gallery, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav, #header-container #main-nav .main-nav-list, #header-container #main-nav, .about-page .navs, .about-page .about div, .about-page .about, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail, .profile-page .page-section.intro .section-wrapper .intro-details {
+.align-center, .portfolio-page .page-section.challenges .section-wrapper, .project-gallery .project-gallery-item .project-details .project-header, .tags, .btn, .menu-btn, .gallery, .project-gallery, .page-section .section-wrapper, #hero-wrapper .hero-cover, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #footer-container #footer-wrapper, #menu-container #links-nav, #header-container #main-nav .main-nav-list, #header-container #main-nav, .about-page .navs, .about-page .about div, .about-page .about, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail, .profile-page .page-section.intro .section-wrapper .intro-details {
   align-items: center;
 }
 
@@ -125,15 +125,15 @@ input::-ms-clear {
   gap: 3px;
 }
 
-.gap-4, .project-gallery .project-gallery-item .project-details .project-brief, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #menu-container #links-nav, #header-container #main-nav .main-nav-list, .about-page .about div, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .home-page .page-section.intro .section-wrapper {
+.gap-4, .project-gallery .project-gallery-item .project-details .project-brief, .btn.sm, .contact-nav .contact-nav-link, .contact-nav, .media-nav, #footer-container #footer-wrapper #brand, #menu-container #links-nav, #header-container #main-nav .main-nav-list, .about-page .about div, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-main, .profile-page .page-section.intro .section-wrapper .intro-details, .home-page .page-section.portfolio .section-wrapper .portfolio-header, .home-page .page-section.intro .section-wrapper {
   gap: 4px;
 }
 
-.gap-6 {
+.gap-6, .btn.md {
   gap: 6px;
 }
 
-.gap-8, .portfolio-page .page-section.challenges .section-wrapper, .gallery, .project-gallery, #menu-container, .profile-page .page-section.hobbies .section-wrapper .hobby {
+.gap-8, .portfolio-page .page-section.challenges .section-wrapper, .btn.lg, .gallery, .project-gallery, #menu-container, .profile-page .page-section.hobbies .section-wrapper .hobby {
   gap: 8px;
 }
 
@@ -737,7 +737,7 @@ input::-ms-clear {
   padding-right: 8px;
 }
 
-.py-8 {
+.py-8, .btn.sm {
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -797,7 +797,7 @@ input::-ms-clear {
   padding-right: 12px;
 }
 
-.py-12, .btn.md, .btn.sm, #menu-container #menu-nav .menu-nav-list .menu-nav-item {
+.py-12, .btn.md, #menu-container #menu-nav .menu-nav-list .menu-nav-item {
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -822,7 +822,7 @@ input::-ms-clear {
   padding-bottom: 16px;
 }
 
-.px-16, .btn.sm, .page-section, #hero-wrapper .hero-cover, #menu-container #menu-nav .menu-nav-list .menu-nav-item {
+.px-16, .btn.md, .btn.sm, .page-section, #hero-wrapper .hero-cover, #menu-container #menu-nav .menu-nav-list .menu-nav-item {
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -852,7 +852,7 @@ input::-ms-clear {
   padding-bottom: 20px;
 }
 
-.px-20, .btn.md {
+.px-20 {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -1212,15 +1212,15 @@ input::-ms-clear {
   border-radius: 3px;
 }
 
-.br-4, .btn.sm, .card, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
+.br-4, .card, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item {
   border-radius: 4px;
 }
 
-.br-6, .btn.md {
+.br-6, .btn.sm {
   border-radius: 6px;
 }
 
-.br-8, .btn.lg {
+.br-8, .btn.md {
   border-radius: 8px;
 }
 
@@ -1228,7 +1228,7 @@ input::-ms-clear {
   border-radius: 10px;
 }
 
-.br-12 {
+.br-12, .btn.lg {
   border-radius: 12px;
 }
 
@@ -3612,7 +3612,9 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   letter-spacing: 1.16px;
   line-height: 1;
   transition: all 0.08s ease-in-out;
-  font-weight: 600;
+  font-weight: 400;
+  text-transform: none;
+  line-height: normal;
 }
 .btn h2, .btn h3, .btn h4, .btn h5, .btn h6 {
   color: hsl(210, 0%, 98%);
@@ -3623,28 +3625,46 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .btn:hover {
   font-weight: 600;
 }
-.btn.sm {
-  font-size: 12px;
+.btn * {
+  color: hsl(210, 0%, 98%);
+}
+.btn.sm svg {
+  font-size: 14px;
 }
 .btn.md {
   font-size: 14px;
 }
+.btn.md svg {
+  font-size: 16px;
+}
 @media screen and (max-width: 379px) {
   .btn.md {
-    padding: 12px 16px;
-    border-radius: 4px;
+    padding: 8px 16px;
+    border-radius: 6px;
     font-size: 12px;
+  }
+  .btn.md svg {
+    font-size: 14px;
   }
 }
 .btn.lg {
   font-size: 16px;
 }
+.btn.lg svg {
+  font-size: 20px;
+}
 @media screen and (max-width: 379px) {
   .btn.lg {
     padding: 12px 20px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 14px;
   }
+  .btn.lg svg {
+    font-size: 18px;
+  }
+}
+.btn:hover {
+  font-weight: 400;
 }
 @media (prefers-color-scheme: dark) {
   .btn {
