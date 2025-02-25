@@ -1,5 +1,5 @@
 *.js linguist-detectable=true
-*.jsx linguist-detectable=true
+*.jsx linguist-detectable=JavaScript
 *.html linguist-detectable=false
 *.css linguist-detectable=true
 *.scss linguist-detectable=false
