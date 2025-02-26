@@ -4012,6 +4012,10 @@ p {
   }
 }
 
+.menu-btn .bar {
+  background-color: hsl(210, 0%, 98%);
+}
+
 @media (prefers-color-scheme: dark) {
   .btn {
     background-color: hsl(210, 96%, 40%);
