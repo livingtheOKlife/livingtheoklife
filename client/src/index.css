@@ -3771,7 +3771,7 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   cursor: pointer;
 }
 .menu-btn .bar {
-  background-color: hsl(210, 0%, 98%);
+  background-color: hsl(210, 100%, 4%);
   box-shadow: 1px 4px 10px 2px rgba(0, 0, 0, 0.16);
 }
 .menu-btn .bar.basic {
@@ -3788,6 +3788,11 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .menu-btn .bar:nth-of-type(3) {
   top: 6px;
   animation: botBarRev 0.64s ease-in-out;
+}
+@media (prefers-color-scheme: dark) {
+  .menu-btn .bar {
+    background-color: hsl(210, 0%, 98%);
+  }
 }
 .menu-btn.active .bar:nth-of-type(1) {
   animation: topBar 0.64s forwards ease-in-out;
