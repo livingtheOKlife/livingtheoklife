@@ -2310,18 +2310,30 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 }
 
 .App {
-  background-color: hsl(210, 100%, 4%);
-  color: hsl(210, 0%, 98%);
+  background-color: hsl(210, 0%, 98%);
+  color: hsl(210, 100%, 4%);
   height: 100dvh;
   max-width: 100dvh;
   width: 100dvw;
   max-width: 100dvw;
 }
 .App h2, .App h3, .App h4, .App h5, .App h6 {
-  color: hsl(210, 0%, 98%);
+  color: hsl(210, 100%, 4%);
 }
 .App p, .App span, .App svg {
-  color: #f0f0f0;
+  color: #001429;
+}
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: hsl(210, 100%, 4%);
+    color: hsl(210, 0%, 98%);
+  }
+  .App h2, .App h3, .App h4, .App h5, .App h6 {
+    color: hsl(210, 0%, 98%);
+  }
+  .App p, .App span, .App svg {
+    color: #f0f0f0;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -3718,6 +3730,17 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 }
 .tags .tag.php svg {
   color: #B0B3D6;
+}
+
+.App {
+  background-color: hsl(210, 100%, 4%);
+  color: hsl(210, 0%, 98%);
+}
+.App h2, .App h3, .App h4, .App h5, .App h6 {
+  color: hsl(210, 0%, 98%);
+}
+.App p, .App span, .App svg {
+  color: #f0f0f0;
 }
 
 p {
