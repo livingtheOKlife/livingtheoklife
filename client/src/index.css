@@ -402,11 +402,11 @@ input::-ms-clear {
   height: 2px;
 }
 
-.h-3, .menu-btn .bar {
+.h-3 {
   height: 3px;
 }
 
-.h-4 {
+.h-4, .menu-btn .bar {
   height: 4px;
 }
 
@@ -3786,7 +3786,7 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   animation: none !important;
 }
 .menu-btn .bar:nth-of-type(1) {
-  top: -6px;
+  top: -5px;
   animation: topBarRev 0.64s ease-in-out;
 }
 .menu-btn .bar:nth-of-type(2) {
@@ -3794,7 +3794,7 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   animation: midBarRev 0.64s ease-in-out;
 }
 .menu-btn .bar:nth-of-type(3) {
-  top: 6px;
+  top: 5px;
   animation: botBarRev 0.64s ease-in-out;
 }
 @media (prefers-color-scheme: dark) {
