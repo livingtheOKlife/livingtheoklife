@@ -7,7 +7,7 @@ function FooterContainer () {
         <div id="brand">
           <span id="logo">livingthe<em>OK</em>life</span>
           <FaRegCopyright className="copyright" />
-          <span className="copyright">2024</span>
+          <span className="copyright">2025</span>
         </div>
         <span className="right">All rights reserved.</span>
       </div>
