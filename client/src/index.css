@@ -1837,6 +1837,23 @@ input::-ms-clear {
   z-index: 1000;
 }
 
+.logo {
+  font-family: "Rock Salt", cursive;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.logo em {
+  text-transform: uppercase;
+  color: hsl(210, 96%, 40%);
+}
+@media (prefers-color-scheme: dark) {
+  .logo em {
+    color: hsl(32, 96%, 48%);
+  }
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
@@ -2372,11 +2389,127 @@ a:hover {
   }
 }
 
+label {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+label em {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+@media screen and (min-width: 600px) {
+  label {
+    font-size: 16.24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  label {
+    font-size: 18.8384px;
+  }
+}
+@media screen and (max-width: 379px) {
+  label {
+    font-size: 12px;
+  }
+}
+
+input {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+input em {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+@media screen and (min-width: 600px) {
+  input {
+    font-size: 16.24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  input {
+    font-size: 18.8384px;
+  }
+}
+input::-moz-placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+input::placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+input::-moz-placeholder em {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+input::placeholder em {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.32;
+}
+@media screen and (min-width: 600px) {
+  input::-moz-placeholder {
+    font-size: 16.24px;
+  }
+  input::placeholder {
+    font-size: 16.24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  input::-moz-placeholder {
+    font-size: 18.8384px;
+  }
+  input::placeholder {
+    font-size: 18.8384px;
+  }
+}
+@media screen and (max-width: 379px) {
+  input::-moz-placeholder {
+    font-size: 12px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 379px) {
+  input {
+    font-size: 12px;
+  }
+}
+
 .ta-center, h3,
 h4,
 h5,
 p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body, .profile-page .page-section.intro .section-wrapper .intro-details .intro-detail {
   text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalze {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
 
 .clickable, .btn, .media-nav .media-nav-link {
