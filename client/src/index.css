@@ -2400,8 +2400,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .App h2, .App h3, .App h4, .App h5, .App h6 {
   color: hsl(210, 100%, 4%);
 }
-.App p, .App span, .App svg {
+.App p, .App span, .App label, .App input, .App svg {
   color: #001429;
+}
+.App input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.48);
+}
+.App input::placeholder {
+  color: rgba(0, 0, 0, 0.48);
 }
 @media (prefers-color-scheme: dark) {
   .App {
@@ -2411,8 +2417,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   .App h2, .App h3, .App h4, .App h5, .App h6 {
     color: hsl(210, 0%, 98%);
   }
-  .App p, .App span, .App svg {
+  .App p, .App span, .App label, .App input, .App svg {
     color: #f0f0f0;
+  }
+  .App input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.24);
+  }
+  .App input::placeholder {
+    color: rgba(255, 255, 255, 0.24);
   }
 }
 
@@ -2428,8 +2440,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .home-page .page-section.intro h2, .home-page .page-section.intro h3, .home-page .page-section.intro h4, .home-page .page-section.intro h5, .home-page .page-section.intro h6 {
   color: hsl(210, 0%, 98%);
 }
-.home-page .page-section.intro p, .home-page .page-section.intro span, .home-page .page-section.intro svg {
+.home-page .page-section.intro p, .home-page .page-section.intro span, .home-page .page-section.intro label, .home-page .page-section.intro input, .home-page .page-section.intro svg {
   color: #f0f0f0;
+}
+.home-page .page-section.intro input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.home-page .page-section.intro input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .home-page .page-section.oklife {
   background-color: hsl(210, 0%, 98%);
@@ -2438,8 +2456,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .home-page .page-section.oklife h2, .home-page .page-section.oklife h3, .home-page .page-section.oklife h4, .home-page .page-section.oklife h5, .home-page .page-section.oklife h6 {
   color: hsl(210, 100%, 4%);
 }
-.home-page .page-section.oklife p, .home-page .page-section.oklife span, .home-page .page-section.oklife svg {
+.home-page .page-section.oklife p, .home-page .page-section.oklife span, .home-page .page-section.oklife label, .home-page .page-section.oklife input, .home-page .page-section.oklife svg {
   color: #001429;
+}
+.home-page .page-section.oklife input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.48);
+}
+.home-page .page-section.oklife input::placeholder {
+  color: rgba(0, 0, 0, 0.48);
 }
 .home-page .page-section.oklife .section-wrapper .logo em {
   color: hsl(210, 96%, 40%);
@@ -2451,8 +2475,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .home-page .page-section.portfolio h2, .home-page .page-section.portfolio h3, .home-page .page-section.portfolio h4, .home-page .page-section.portfolio h5, .home-page .page-section.portfolio h6 {
   color: hsl(210, 0%, 98%);
 }
-.home-page .page-section.portfolio p, .home-page .page-section.portfolio span, .home-page .page-section.portfolio svg {
+.home-page .page-section.portfolio p, .home-page .page-section.portfolio span, .home-page .page-section.portfolio label, .home-page .page-section.portfolio input, .home-page .page-section.portfolio svg {
   color: #f0f0f0;
+}
+.home-page .page-section.portfolio input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.home-page .page-section.portfolio input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .home-page .page-section.portfolio .section-wrapper > .nav-link {
   margin-bottom: -8px;
@@ -2467,8 +2497,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .home-page .page-section.outro h2, .home-page .page-section.outro h3, .home-page .page-section.outro h4, .home-page .page-section.outro h5, .home-page .page-section.outro h6 {
   color: hsl(210, 0%, 98%);
 }
-.home-page .page-section.outro p, .home-page .page-section.outro span, .home-page .page-section.outro svg {
+.home-page .page-section.outro p, .home-page .page-section.outro span, .home-page .page-section.outro label, .home-page .page-section.outro input, .home-page .page-section.outro svg {
   color: #f0f0f0;
+}
+.home-page .page-section.outro input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.home-page .page-section.outro input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 
 .profile-page .page-section.intro .section-wrapper .profile-picture {
@@ -2686,8 +2722,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .profile-page .page-section.experience h2, .profile-page .page-section.experience h3, .profile-page .page-section.experience h4, .profile-page .page-section.experience h5, .profile-page .page-section.experience h6 {
   color: hsl(210, 0%, 98%);
 }
-.profile-page .page-section.experience p, .profile-page .page-section.experience span, .profile-page .page-section.experience svg {
+.profile-page .page-section.experience p, .profile-page .page-section.experience span, .profile-page .page-section.experience label, .profile-page .page-section.experience input, .profile-page .page-section.experience svg {
   color: #f0f0f0;
+}
+.profile-page .page-section.experience input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.profile-page .page-section.experience input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .profile-page .page-section.experience .section-wrapper .experience-list .experience-item .card-header {
   grid-template-columns: 1fr auto;
@@ -2930,8 +2972,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .profile-page .page-section.hobbies h2, .profile-page .page-section.hobbies h3, .profile-page .page-section.hobbies h4, .profile-page .page-section.hobbies h5, .profile-page .page-section.hobbies h6 {
   color: hsl(210, 100%, 4%);
 }
-.profile-page .page-section.hobbies p, .profile-page .page-section.hobbies span, .profile-page .page-section.hobbies svg {
+.profile-page .page-section.hobbies p, .profile-page .page-section.hobbies span, .profile-page .page-section.hobbies label, .profile-page .page-section.hobbies input, .profile-page .page-section.hobbies svg {
   color: #001429;
+}
+.profile-page .page-section.hobbies input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.48);
+}
+.profile-page .page-section.hobbies input::placeholder {
+  color: rgba(0, 0, 0, 0.48);
 }
 .profile-page .page-section.hobbies .section-wrapper .hobby p {
   max-width: 480px;
@@ -2952,8 +3000,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #header-container h2, #header-container h3, #header-container h4, #header-container h5, #header-container h6 {
   color: hsl(210, 0%, 98%);
 }
-#header-container p, #header-container span, #header-container svg {
+#header-container p, #header-container span, #header-container label, #header-container input, #header-container svg {
   color: #f0f0f0;
+}
+#header-container input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+#header-container input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 #header-container #main-nav .logo {
   font-family: "Rock Salt", cursive;
@@ -3011,8 +3065,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #menu-container h2, #menu-container h3, #menu-container h4, #menu-container h5, #menu-container h6 {
   color: hsl(210, 100%, 4%);
 }
-#menu-container p, #menu-container span, #menu-container svg {
+#menu-container p, #menu-container span, #menu-container label, #menu-container input, #menu-container svg {
   color: #001429;
+}
+#menu-container input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.48);
+}
+#menu-container input::placeholder {
+  color: rgba(0, 0, 0, 0.48);
 }
 #menu-container #menu-nav .menu-nav-list .menu-nav-item {
   font-family: "Quicksand", sans-serif;
@@ -3051,8 +3111,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   #menu-container h2, #menu-container h3, #menu-container h4, #menu-container h5, #menu-container h6 {
     color: hsl(210, 0%, 98%);
   }
-  #menu-container p, #menu-container span, #menu-container svg {
+  #menu-container p, #menu-container span, #menu-container label, #menu-container input, #menu-container svg {
     color: #f0f0f0;
+  }
+  #menu-container input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.24);
+  }
+  #menu-container input::placeholder {
+    color: rgba(255, 255, 255, 0.24);
   }
   #menu-container #menu-nav .menu-nav-list .menu-nav-item:not(:last-of-type)::after {
     background: rgba(255, 255, 255, 0.08);
@@ -3082,8 +3148,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #footer-container h2, #footer-container h3, #footer-container h4, #footer-container h5, #footer-container h6 {
   color: hsl(210, 0%, 98%);
 }
-#footer-container p, #footer-container span, #footer-container svg {
+#footer-container p, #footer-container span, #footer-container label, #footer-container input, #footer-container svg {
   color: #f0f0f0;
+}
+#footer-container input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+#footer-container input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 #footer-container #footer-wrapper #brand #logo {
   font-family: "Rock Salt", cursive;
@@ -3695,8 +3767,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .page-section.outro h2, .page-section.outro h3, .page-section.outro h4, .page-section.outro h5, .page-section.outro h6 {
   color: hsl(210, 0%, 98%);
 }
-.page-section.outro p, .page-section.outro span, .page-section.outro svg {
+.page-section.outro p, .page-section.outro span, .page-section.outro label, .page-section.outro input, .page-section.outro svg {
   color: #f0f0f0;
+}
+.page-section.outro input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.page-section.outro input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .page-section.outro .section-wrapper .contact-nav-link {
   color: hsl(210, 0%, 98%);
@@ -3759,8 +3837,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .card.light h2, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h2, .card.light h3, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h3, .card.light h4, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h4, .card.light h5, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h5, .card.light h6, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item h6 {
   color: hsl(210, 100%, 4%);
 }
-.card.light p, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item p, .card.light span, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item span, .card.light svg, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item svg {
+.card.light p, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item p, .card.light span, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item span, .card.light label, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item label, .card.light input, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item input, .card.light svg, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item svg {
   color: #001429;
+}
+.card.light input::-moz-placeholder, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.48);
+}
+.card.light input::placeholder, .profile-page .page-section.experience .section-wrapper .experience-list .experience-item input::placeholder {
+  color: rgba(0, 0, 0, 0.48);
 }
 .card.dark, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item {
   background-color: hsl(210, 100%, 4%);
@@ -3769,8 +3853,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .card.dark h2, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h2, .card.dark h3, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h3, .card.dark h4, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h4, .card.dark h5, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h5, .card.dark h6, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item h6 {
   color: hsl(210, 0%, 98%);
 }
-.card.dark p, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item p, .card.dark span, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item span, .card.dark svg, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item svg {
+.card.dark p, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item p, .card.dark span, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item span, .card.dark label, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item label, .card.dark input, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item input, .card.dark svg, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item svg {
   color: #f0f0f0;
+}
+.card.dark input::-moz-placeholder, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.card.dark input::placeholder, .profile-page .page-section.experience .section-wrapper .experience-list .dark.experience-item input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 
 .menu-btn {
@@ -3889,8 +3979,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .btn h2, .btn h3, .btn h4, .btn h5, .btn h6 {
   color: hsl(210, 0%, 98%);
 }
-.btn p, .btn span, .btn svg {
+.btn p, .btn span, .btn label, .btn input, .btn svg {
   color: #f0f0f0;
+}
+.btn input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.btn input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .btn:hover {
   font-weight: 600;
@@ -3944,8 +4040,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
   .btn h2, .btn h3, .btn h4, .btn h5, .btn h6 {
     color: hsl(210, 0%, 98%);
   }
-  .btn p, .btn span, .btn svg {
+  .btn p, .btn span, .btn label, .btn input, .btn svg {
     color: #f0f0f0;
+  }
+  .btn input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.24);
+  }
+  .btn input::placeholder {
+    color: rgba(255, 255, 255, 0.24);
   }
 }
 
@@ -3997,8 +4099,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 .App h2, .App h3, .App h4, .App h5, .App h6 {
   color: hsl(210, 0%, 98%);
 }
-.App p, .App span, .App svg {
+.App p, .App span, .App label, .App input, .App svg {
   color: #f0f0f0;
+}
+.App input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.App input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 
 #header-container #main-nav .logo em {
@@ -4012,8 +4120,14 @@ p, .page-section.outro .section-wrapper h4, #hero-wrapper .hero-cover .hero-body
 #menu-container h2, #menu-container h3, #menu-container h4, #menu-container h5, #menu-container h6 {
   color: hsl(210, 0%, 98%);
 }
-#menu-container p, #menu-container span, #menu-container svg {
+#menu-container p, #menu-container span, #menu-container label, #menu-container input, #menu-container svg {
   color: #f0f0f0;
+}
+#menu-container input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+#menu-container input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 #menu-container #menu-nav .menu-nav-list .menu-nav-item:not(:last-of-type)::after {
   background: rgba(255, 255, 255, 0.08);
@@ -4046,8 +4160,14 @@ p {
   .btn h2, .btn h3, .btn h4, .btn h5, .btn h6 {
     color: hsl(210, 0%, 98%);
   }
-  .btn p, .btn span, .btn svg {
+  .btn p, .btn span, .btn label, .btn input, .btn svg {
     color: #f0f0f0;
+  }
+  .btn input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.24);
+  }
+  .btn input::placeholder {
+    color: rgba(255, 255, 255, 0.24);
   }
 }
 
@@ -4071,8 +4191,14 @@ p {
 .project-gallery .project-gallery-item .project-details .project-header h2, .project-gallery .project-gallery-item .project-details .project-header h3, .project-gallery .project-gallery-item .project-details .project-header h4, .project-gallery .project-gallery-item .project-details .project-header h5, .project-gallery .project-gallery-item .project-details .project-header h6 {
   color: hsl(210, 0%, 98%);
 }
-.project-gallery .project-gallery-item .project-details .project-header p, .project-gallery .project-gallery-item .project-details .project-header span, .project-gallery .project-gallery-item .project-details .project-header svg {
+.project-gallery .project-gallery-item .project-details .project-header p, .project-gallery .project-gallery-item .project-details .project-header span, .project-gallery .project-gallery-item .project-details .project-header label, .project-gallery .project-gallery-item .project-details .project-header input, .project-gallery .project-gallery-item .project-details .project-header svg {
   color: #f0f0f0;
+}
+.project-gallery .project-gallery-item .project-details .project-header input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.project-gallery .project-gallery-item .project-details .project-header input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .project-gallery .project-gallery-item .project-details .project-header .project-title,
 .project-gallery .project-gallery-item .project-details .project-header .project-type {
@@ -4200,8 +4326,14 @@ p {
 .project-gallery .project-gallery-item .project-details .project-brief h2, .project-gallery .project-gallery-item .project-details .project-brief h3, .project-gallery .project-gallery-item .project-details .project-brief h4, .project-gallery .project-gallery-item .project-details .project-brief h5, .project-gallery .project-gallery-item .project-details .project-brief h6 {
   color: hsl(210, 0%, 98%);
 }
-.project-gallery .project-gallery-item .project-details .project-brief p, .project-gallery .project-gallery-item .project-details .project-brief span, .project-gallery .project-gallery-item .project-details .project-brief svg {
+.project-gallery .project-gallery-item .project-details .project-brief p, .project-gallery .project-gallery-item .project-details .project-brief span, .project-gallery .project-gallery-item .project-details .project-brief label, .project-gallery .project-gallery-item .project-details .project-brief input, .project-gallery .project-gallery-item .project-details .project-brief svg {
   color: #f0f0f0;
+}
+.project-gallery .project-gallery-item .project-details .project-brief input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.project-gallery .project-gallery-item .project-details .project-brief input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .project-gallery .project-gallery-item:hover .project-details .project-brief {
   height: 100%;
@@ -4220,8 +4352,14 @@ p {
 .portfolio-page .page-section.projects h2, .portfolio-page .page-section.projects h3, .portfolio-page .page-section.projects h4, .portfolio-page .page-section.projects h5, .portfolio-page .page-section.projects h6 {
   color: hsl(210, 0%, 98%);
 }
-.portfolio-page .page-section.projects p, .portfolio-page .page-section.projects span, .portfolio-page .page-section.projects svg {
+.portfolio-page .page-section.projects p, .portfolio-page .page-section.projects span, .portfolio-page .page-section.projects label, .portfolio-page .page-section.projects input, .portfolio-page .page-section.projects svg {
   color: #f0f0f0;
+}
+.portfolio-page .page-section.projects input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.24);
+}
+.portfolio-page .page-section.projects input::placeholder {
+  color: rgba(255, 255, 255, 0.24);
 }
 .portfolio-page .page-section.projects .section-wrapper a {
   color: hsl(32, 96%, 48%);
@@ -4237,8 +4375,14 @@ p {
 .portfolio-page .page-section.brief h2, .portfolio-page .page-section.brief h3, .portfolio-page .page-section.brief h4, .portfolio-page .page-section.brief h5, .portfolio-page .page-section.brief h6 {
   color: hsl(210, 100%, 4%);
 }
-.portfolio-page .page-section.brief p, .portfolio-page .page-section.brief span, .portfolio-page .page-section.brief svg {
+.portfolio-page .page-section.brief p, .portfolio-page .page-section.brief span, .portfolio-page .page-section.brief label, .portfolio-page .page-section.brief input, .portfolio-page .page-section.brief svg {
   color: #001429;
+}
+.portfolio-page .page-section.brief input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.48);
+}
+.portfolio-page .page-section.brief input::placeholder {
+  color: rgba(0, 0, 0, 0.48);
 }
 .portfolio-page .page-section.brief .media-nav .media-nav-link svg {
   color: hsl(210, 100%, 4%);
